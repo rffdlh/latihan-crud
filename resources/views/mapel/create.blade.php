@@ -5,13 +5,13 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Tambah Pelajaran</div>
+                <div class="card-header">Tambah Data Pelajaran</div>
 
                 <div class="card-body">
                     <form action="{{route('mapel.store')}}" method="post">
                         @csrf
                         <div class="form-group">
-                            <label>Mata Pelajaran</label>
+                            <label>Nama Pelajaran</label>
                             <input type="text" name="nama" class="form-control" required>
                         </div>
                         <div class="form-goup">

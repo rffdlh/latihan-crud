@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">
-                    Daftar Kelas
+                    Daftar Data Kelas
                     <a href="{{route('kelas.create')}}"
                         class="btn btn-primary float-right">
                         Tambah Data
@@ -34,7 +34,7 @@
                                 @foreach($kelas as $data)
                                     <tr>
                                         <td>{{$no++}}</td>
-                                        <td>{{$data->nama}}</td>
+                                        <td>{{$data->kelas}}</td>
                                         <td><a href="{{route('kelas.show', $data->id)}}" class="btn btn-info">Show</a></td>
                                         <td><a href="{{route('kelas.edit', $data->id)}}" class="btn btn-success">Edit</a></td>
                                         <td>

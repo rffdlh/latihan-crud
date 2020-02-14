@@ -5,11 +5,11 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Show Pelajaran</div>
+                <div class="card-header">Show Data Pelajaran</div>
 
                 <div class="card-body">
                         <div class="form-group">
-                            <label>Mata Pelajaran</label>
+                            <label>Nama Pelajaran</label>
                             <input type="text" name="nama" value="{{$mapel->nama}}" class="form-control" readonly>
                         </div>
                         <div class="form-goup">
