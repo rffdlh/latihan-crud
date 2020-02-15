@@ -31,7 +31,6 @@
                                 @endforeach
                             </select>
                         </div>
-
                         <div class="form-group">
                             <label>Mata Pelajaran</label>
                             <select name="mapel[]" class="form-control" multiple>
@@ -40,7 +39,6 @@
                                 @endforeach
                             </select>
                         </div>
-
                         <div class="form-goup">
                             <button type="submit" class="btn btn-primary">Simpan</button>
                         </div>
